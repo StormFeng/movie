@@ -16,7 +16,7 @@ export default class Home extends Component{
                     backgroundColor='#d81e06'
                     outerContainerStyles={{height:50}}
                     innerContainerStyles={{height:50}}
-                    centerComponent={<Text h4 style={{color:'white'}}>猫眼电影</Text>}/>
+                    centerComponent={<Text h4 style={{color:'white'}}>豆瓣电影</Text>}/>
                 <ScrollableTabView
                     renderTabBar={() => <DefaultTabBar />}
                     tabBarUnderlineStyle={{backgroundColor:'#d81e06',height:2}}
