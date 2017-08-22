@@ -11,12 +11,12 @@ import {
   Text,
   View
 } from 'react-native';
-import Hot from './screen/home/Home';
 import Main from "./screen/Main";
+import MovieDetail from "./screen/find/MovieDetail";
 export default class movie extends Component {
     render() {
         return (
-            <Main/>
+            <MovieDetail/>
         );
     }
 }

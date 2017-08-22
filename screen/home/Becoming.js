@@ -27,7 +27,7 @@ class Item extends Component{
                         outline={true}
                         fontSize={12}
                         textStyle={{fontSize:12}}
-                        buttonStyle={{paddingLeft:10,paddingRight:10,paddingTop:5,paddingBottom:5}}/>
+                        buttonStyle={{paddingLeft:10,paddingRight:10,paddingTop:5,paddingBottom:5,margin:0}}/>
                 </View>
             </View>
         );
